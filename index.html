@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Deskal Maths Trainer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="icon.png" alt="icon" class="icon">
+      <h1>Deskal Maths Trainer</h1>
+    </header>
+
+    <main id="main">
+      <div id="menu">
+        <button id="startBtn">Start Quiz</button>
+        <button id="resetBtn">Reset Score</button>
+        <p id="total"></p>
+      </div>
+
+      <div id="quiz" style="display:none;">
+        <div id="qnum"></div>
+        <div id="qtext"></div>
+        <input id="answerInput" type="text" placeholder="Type your answer here" inputmode="numeric" />
+        <div id="feedback"></div>
+        <div class="controls">
+          <button id="checkBtn">Check Answer</button>
+          <button id="nextBtn" style="display:none;">Next</button>
+        </div>
+        <div id="score"></div>
+      </div>
+
+      <div id="aboutLink"><a href="about.html">About</a></div>
+    </main>
+
+    <footer>
+      <p>Developed by Mwenda Desmond – Deskal Technologies</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
